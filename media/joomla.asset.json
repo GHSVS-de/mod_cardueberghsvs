@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "{{name}}",
+  "version": "{{version}}",
+	"versionSub": "{{versionSub}}",
+  "description": "{{description}}",
+  "license": "{{licenseLong}}",
+  "assets": [
+    {
+      "name": "{{name}}.framework",
+      "type": "preset",
+			"dependencies": [
+				"{{name}}.override.template#style"
+			]
+    },
+		{
+			"name": "{{name}}.override.template",
+			"version": "{{version}}",
+			"type": "style",
+			"uri": "{{name}}.css",
+			"weight": 500
+		}
+  ]
+}

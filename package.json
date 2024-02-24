@@ -1,0 +1,79 @@
+{
+	"name": "mod_cardueberghsvs",
+	"nameReal": "mod_cardueberghsvs",
+	"filename": "mod_cardueberghsvs",
+	"version": "2024.02.24",
+	"versionCompare": "2024.02.24",
+	"versionSub": "",
+	"update": {
+		"versionsSubComment": "Für joomla.asset.json. Dort z.B. auszeichnen als {{versionsSub.bootstrap}} etc.",
+		"versionsSub": {},
+		"infourl": "https://github.com/GHSVS-de/mod_cardueberghsvs{{thisRelease}}",
+		"type": "module",
+		"folder": "",
+		"client": "site",
+		"tag": "stable",
+		"targetplatform": [
+			"4\\.(3|4|5|6|7|8|9|10|11|12|13|14|15)",
+			"5.*"
+		],
+		"namespace": "GHSVS\\Module\\CardUeberGhsvs"
+	},
+	"releaseTxt": {
+		"title": "Joomla site module mod_cardUeberGhsvs",
+		"requires": [],
+		"uses": [],
+		"language": ["en-GB"]
+	},
+	"changelog": {
+		"projecturl": "https://github.com/GHSVS-de/mod_cardueberghsvs",
+		"infosDE": "",
+		"infosEN": "",
+		"docsDE": "",
+		"docsEN": "",
+		"lastTests": [
+			"PHP 8.2",
+			"Joomla 4.4"
+		]
+	},
+	"minimumPhp": "7.4.0",
+	"maximumPhp": "",
+	"minimumJoomla": "4.3.0",
+	"maximumJoomla": "5.9999.9999",
+	"allowDowngrades": "1",
+	"creationDate": "2024-02-24",
+	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
+	"copyright": "(C) 2024, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)",
+	"author": {
+		"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+		"url": "https://ghsvs.de"
+	},
+	"contributors": [
+		{
+			"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+			"url": "https://ghsvs.de"
+		}
+	],
+	"bugs": "https://github.com/GHSVS-de/mod_cardueberghsvs/issues",
+	"homepage": "https://github.com/GHSVS-de/mod_cardueberghsvs#readme",
+	"keywords": [
+		"joomla",
+		"site module",
+		"counter"
+	],
+	"private": false,
+	"description": "Joomla frontend module. Created for a single website. I don't even want to suck a description out of my fingers.",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GHSVS-de/mod_cardueberghsvs.git"
+	},
+	"scripts": {
+		"g-build": "node build.js",
+    "updateCheck": "npm outdated",
+    "update": "npm update --save-dev"
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"browserslist": []
+}
