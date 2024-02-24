@@ -25,6 +25,7 @@ class Dispatcher extends AbstractModuleDispatcher implements HelperFactoryAwareI
 		$helper = $this->getHelperFactory()->getHelper('CardUeberGhsvsHelper');
 		$displayData = $helper->getDisplayData($data['params'], $data['module'], $data['app']);
 		$displayData['helper'] = $helper;
-		return array_merge($data, $displayData);
+		$displayData = array_merge($data, $displayData);
+		return $displayData;
 	}
 }
