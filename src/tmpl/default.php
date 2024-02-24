@@ -11,17 +11,22 @@ $app,
 $input,
 $params Registry,
 $template,
-$modId String,
+$modId String mod_cardueberghsvs_modId-159,
 $moduleclass_sfx String,
 $moduleTitle bzw. $module->title Lang strings translated,
 $moduleTitleAlt "Alternative Modul-Überschrift" Lang strings translated,
 $helper
 $wa Web Asset Manager
 $items
-	[title] => ENTWICKLUNG
-	[iconClass] => fa-laptop
-	[text] => Sie haben eine Idee, wir entwickeln und realisieren sie mit modernster Technik.
+	[title] => ÜBER
+	UNS
+	[textTitle] => Kunststoffspritzguss ist unsere Welt.
+	Willkommen bei Amper-Plastik.
+	[text] => Amper-Plastik entwickelt und produziert hochwertige, technisch anspruchsvolle Kunststoffprodukte und Spritzgießformen für unterschiedlichste Branchen. Und wir stehen seit 60 Jahren für Qualität, Innovation und Präzision. Profitieren Sie von unserem gewachsenen Know-how. Sprechen Sie mit uns.
+	[buttonText] => ZUM UNTERNEHMEN
+	[buttonLink] => amperplastik/ueber-uns
 	[active] => 1
+	[iconClass] =>
 */
 
 if (empty($items))
